@@ -10,7 +10,7 @@ async function dbConnect() {
         "mongodb+srv://wuwei:KMqFYMiVpqAxG3KD@cluster0.8exel7p.mongodb.net/?retryWrites=true&w=majority",
       {
         //   these are options to ensure that the connection is done properly
-        //useNewUrlParser: true,
+        useNewUrlParser: true,
         useUnifiedTopology: true,
         //useCreateIndex: true,
       }
